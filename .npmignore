@@ -1,4 +1,3 @@
-.DS_Store
 .github
 .gitmodules
 .gitattributes
@@ -25,3 +24,4 @@ yarn.lock
 tscommand*.txt
 /coverage/
 /.nyc_output
+/example/

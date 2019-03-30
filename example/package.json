@@ -8,8 +8,9 @@
     "@types/react-dom": "16.8.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-liff-hooks": "file:..",
     "react-scripts": "2.1.8",
-    "react-liff-hooks": "file:.."
+    "typescript": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
