@@ -1,0 +1,20 @@
+{
+  "name": "react-use-liff",
+  "version": "0.1.0",
+  "description": "A React Hook to handle LINE Front-end Framework (LIFF)",
+  "main": "./lib/index.js",
+  "repository": "https://github.com/osa9/react-use-liff",
+  "author": "osa9",
+  "typings": "./lib/index.d.ts",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.10",
+    "react": "^16.8.6"
+  },
+  "scripts": {
+    "build": "tsc -p src"
+  }
+}
