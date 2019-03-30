@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import useLiff, { LiffData, Liff, LineProfile } from 'react-use-liff';
+import useLiff, { LiffData, Liff, LineProfile } from 'react-liff-hooks';
 
 const LiffInfo: React.FC<{ data: LiffData, liff: Liff }> = ({ data, liff }) => {
   const [profile, setProfile] = React.useState<LineProfile>();
@@ -41,7 +41,7 @@ const App: React.FC = () => {
 
   return (
     <div>
-      <p>react-use-liff</p>
+      <p>react-liff-hooks</p>
       {loading && ('loading')}
       {error && `Error: ${error.message}`}
       {liff && data && (

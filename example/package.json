@@ -1,5 +1,5 @@
 {
-  "name": "react-use-liff-example",
+  "name": "react-liff-hooks-example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
-    "react-use-liff": "file:.."
+    "react-liff-hooks": "file:.."
   },
   "scripts": {
     "start": "react-scripts start",

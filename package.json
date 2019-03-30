@@ -1,9 +1,9 @@
 {
-  "name": "react-use-liff",
+  "name": "react-liff-hooks",
   "version": "0.1.0",
   "description": "A React Hook to handle LINE Front-end Framework (LIFF)",
   "main": "./lib/index.js",
-  "repository": "https://github.com/osa9/react-use-liff",
+  "repository": "https://github.com/osa9/react-liff-hooks",
   "author": "osa9",
   "typings": "./lib/index.d.ts",
   "license": "MIT",
