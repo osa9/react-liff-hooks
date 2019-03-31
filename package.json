@@ -1,6 +1,6 @@
 {
   "name": "react-liff-hooks",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "A React Hook to handle LINE Front-end Framework (LIFF)",
   "main": "./lib/index.js",
   "repository": "https://github.com/osa9/react-liff-hooks",

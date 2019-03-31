@@ -1,25 +1,22 @@
-# react-use-liff
+# react-liff-hooks
 
 A React hook to handle [LINE Front-end Framework (LIFF)](https://developers.line.biz/ja/docs/liff/)
 
 # Installation
-`npm install --save react-use-liff`
-
-Type definition is also contained in this package.
+`npm install --save react-liff-hooks`
 
 # Usage
 See example folder for full example
 
 
-You have to import script in HTML file.
+Currently you have to manually import LIFF library in HTML file before using useLiff.
 ```html
 <script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
 ```
 
-
 ```tsx
 import React, { useState, useEffect } from 'react';
-import useLiff, { LiffData, Liff, LineProfile } from 'react-use-liff';
+import useLiff, { LiffData, Liff, LineProfile } from 'react-liff-hooks';
 
 const LiffInfo: React.FC<{ data: LiffData, liff: Liff }> = ({ data, liff }) => {
   const [profile, setProfile] = React.useState<LineProfile>();
@@ -61,8 +58,8 @@ const App: React.FC = () => {
 
   return (
     <div>
-      <p>react-use-liff</p>
-      {loading && ('loading')}
+      <p>react-liff-hooks</p>
+      {loading && 'loading'}
       {error && `Error: ${error.message}`}
       {liff && data && (
         <LiffInfo data={data} liff={liff} />
@@ -89,7 +86,7 @@ Returns:
 **NEVER** use raw userId for authentication or quering user's private data;
 all values(e.g. userId) may be altered by users.
 
-Use liff.getAccessToken() to get access token and verify channelId and userId in server side.
+Use liff.getAccessToken() to get access token and verify channelId/userId in server side.
 
 An example to authenticate with firebase functions:
 ```ts

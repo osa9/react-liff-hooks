@@ -42,7 +42,7 @@ const App: React.FC = () => {
   return (
     <div>
       <p>react-liff-hooks</p>
-      {loading && ('loading')}
+      {loading && 'Loading...'}
       {error && `Error: ${error.message}`}
       {liff && data && (
         <div>
